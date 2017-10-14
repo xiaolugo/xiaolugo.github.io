@@ -1,7 +1,7 @@
 ---
 layout: post
 title: vps quick config
-date: 2017-10-13T00:00:00.000Z
+date: '2017-10-13 12:34:25 +0800'
 description: Set up vps to cross the GFW quickly.
 tags: vps
 categories:
