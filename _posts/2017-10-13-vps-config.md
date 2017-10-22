@@ -7,9 +7,12 @@ tags: vps
 categories:
   - it
 ---
-# Lnmp
-    wget -c http://soft.vpser.net/lnmp/lnmp1.4.tar.gz && tar zxf lnmp1.4.tar.gz && cd lnmp1.4 && ./install.sh 
 
+# Lnmp
+```bash
+screen -S lnmp
+wget -c http://soft.vpser.net/lnmp/lnmp1.4.tar.gz && tar zxf lnmp1.4.tar.gz && cd lnmp1.4 && ./install.sh 
+```
 
 # SSR
 ```bash
