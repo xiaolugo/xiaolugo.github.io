@@ -1,12 +1,15 @@
 ---
 layout: post
-title: vps quick config
+title: vps config
 date: '2017-10-13 12:34:25 +0800'
-description: Set up vps to cross the GFW quickly.
+description: Set up vps quickly.
 tags: vps
 categories:
   - it
 ---
+# Lnmp
+    wget -c http://soft.vpser.net/lnmp/lnmp1.4.tar.gz && tar zxf lnmp1.4.tar.gz && cd lnmp1.4 && ./install.sh 
+
 
 # SSR
 ```bash
