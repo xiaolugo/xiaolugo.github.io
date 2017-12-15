@@ -13,12 +13,14 @@ categories:
 screen -S lnmp
 wget -c http://soft.vpser.net/lnmp/lnmp1.4.tar.gz && tar zxf lnmp1.4.tar.gz && cd lnmp1.4 && ./install.sh 
 ```
-
 # SSR
 ```bash
 wget -N --no-check-certificate https://softs.fun/Bash/ssr.sh && chmod +x ssr.sh && bash ssr.sh
 ```
-
+# bench
+```bash
+wget -qO- https://raw.githubusercontent.com/oooldking/script/master/superbench.sh | bash
+```
 # V2ray
 ```bash
 bash <(curl -L -s https://install.direct/go.sh)
