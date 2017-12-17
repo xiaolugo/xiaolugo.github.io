@@ -17,6 +17,8 @@ wget -c http://soft.vpser.net/lnmp/lnmp1.4.tar.gz && tar zxf lnmp1.4.tar.gz && c
 ```bash
 wget -N --no-check-certificate https://softs.fun/Bash/ssr.sh && chmod +x ssr.sh && bash ssr.sh
 ```
+# SSRMU
+    wget -N --no-check-certificate https://softs.fun/Bash/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
 # bench
 ```bash
 wget -qO- https://raw.githubusercontent.com/oooldking/script/master/superbench.sh | bash
