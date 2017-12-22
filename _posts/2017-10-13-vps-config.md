@@ -35,19 +35,9 @@ bash <(curl -L -s https://install.direct/go.sh)
 wget -N --no-check-certificate https://softs.fun/Bash/goflyway.sh && chmod +x goflyway.sh && bash goflyway.sh
 ```
 
-# BBR
-```bash
-wget -N --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
-```
-
-# UML BBR
+# LKL BBR
 ```bash
 wget --no-check-certificate https://github.com/91yun/uml/raw/master/lkl/install.sh && bash install.sh
-```
-
-# 91test
-```bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/91yuntest/master/test_91yun.sh && bash test_91yun.sh
 ```
 
 # Adbyby
@@ -75,14 +65,6 @@ wget https://raw.githubusercontent.com/oooldking/script/master/superspeed.sh && 
 # bench
 ```bash
 wget -qO- bench.sh | bash
-```
-
-# ss libev
-```bash
-sudo apt-get install software-properties-common -y
-sudo add-apt-repository ppa:max-c-lv/shadowsocks-libev
-sudo apt-get update
-sudo apt install shadowsocks-libev
 ```
 
 # nano
