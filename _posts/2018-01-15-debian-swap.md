@@ -2,7 +2,7 @@
 title: Ubuntu/Debian添加SWAP
 layout: post
 tags:
-  - linux
+  - vps
 category: it
 ---
 ```bash
