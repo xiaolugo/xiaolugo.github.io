@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Xiaolu in GitHub
+title: 道之之道
 subtitle:
 description:
 author: xiaolu
@@ -16,7 +16,7 @@ repository: xiaolugo/xiaolugo.github.io
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url: https://xiaolugo.github.io/
 baseurl:
-permalink: :category/:title
+permalink: pretty
 
 # Pagination
 paginate: 10
