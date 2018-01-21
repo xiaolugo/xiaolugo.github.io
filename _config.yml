@@ -5,7 +5,7 @@
 
 # Site
 title: 道之
-subtitle:
+subtitle:之道
 description:
 author: daozhi
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
@@ -356,7 +356,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 
 # ---------------------------------------------------------------
@@ -383,7 +383,7 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
+  enable: true
   shortname: gxlgit
   count: true
   # hide comments (visitors need to click to load the comments)
@@ -427,10 +427,10 @@ changyan:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: UcVPIzBuPHmfoAsOmZpxB9Kj9Q51zdxY_BDoaJ-x7B8
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-112747960-1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
