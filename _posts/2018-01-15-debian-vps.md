@@ -1,10 +1,12 @@
 ---
-title: Debian9开启BBR
+title: Debian VPS常用设置
 layout: post
 tags:
-  - bbr
+  - debian
 category: it
 ---
+<!-- more -->Debian VPS的一些常用设置及脚本。
+
 ```bash
 echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
 echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
