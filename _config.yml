@@ -7,7 +7,7 @@
 title: 道之
 subtitle:
 description:
-author: xiaolu
+author: daozhi
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
@@ -16,7 +16,7 @@ repository: xiaolugo/xiaolugo.github.io
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url: https://xiaolugo.github.io/
 baseurl:
-permalink: pretty
+permalink: none
 
 # Pagination
 paginate: 10
@@ -39,8 +39,8 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 
 # Code Highlighter
 ## 'pygments' is unsupported on GitHub Pages now.
-highlighter: rouge
-
+#highlighter: rouge
+highlighter: pygments
 #### Markdown Processors
 ## 'redcarpet' is unsupported on GitHub Pages now.
 markdown: kramdown
@@ -356,7 +356,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night blue
+highlight_theme: normal
 
 
 # ---------------------------------------------------------------

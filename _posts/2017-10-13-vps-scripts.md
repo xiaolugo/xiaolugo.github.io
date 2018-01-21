@@ -1,12 +1,11 @@
 ---
-title: 部署vps一件脚本
+title: VPS一键脚本
 layout: post
 tags:
   - vps
 category: it
 ---
 
-<!-- more -->
 # Basic
 ```bash
 passwd
@@ -16,17 +15,18 @@ apt update && apt upgrade -y
 apt install vim nano htop curl unzip screen
 cp /usr/share/vim/vim74/vimrc_example.vim .vimrc
 vim /etc/ssh/sshd_config
+```
+<!-- more -->
+
+# Nanorc
+```bash
 wget https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh -O- | sh
 ```
 # Bench
 ```bash
 wget -qO- https://raw.githubusercontent.com/oooldking/script/master/superbench.sh | bash
+wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench.sh && bash ZBench.sh
 wget -qO- bench.sh | bash
-```
-# LNMP
-```bash
-screen -S lnmp
-wget -c http://soft.vpser.net/lnmp/lnmp1.4.tar.gz && tar zxf lnmp1.4.tar.gz && cd lnmp1.4 && ./install.sh 
 ```
 # SSR
 ```bash
@@ -36,6 +36,11 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 ```bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/status.sh && chmod +x status.sh
 ```
+# LNMP
+```bash
+screen -S lnmp
+wget -c http://soft.vpser.net/lnmp/lnmp1.4.tar.gz && tar zxf lnmp1.4.tar.gz && cd lnmp1.4 && ./install.sh 
+```
 # V2ray
 ```bash
 bash <(curl -L -s https://install.direct/go.sh)
@@ -44,7 +49,7 @@ bash <(curl -L -s https://install.direct/go.sh)
 ```bash
 wget -N --no-check-certificate https://softs.fun/Bash/goflyway.sh && chmod +x goflyway.sh && bash goflyway.sh
 ```
-# BBR
+# BBR OpenVZ
 ```bash
 wget --no-check-certificate https://github.com/91yun/uml/raw/master/lkl/install.sh && bash install.sh
 curl https://raw.githubusercontent.com/linhua55/lkl_study/master/get-rinetd.sh | bash
