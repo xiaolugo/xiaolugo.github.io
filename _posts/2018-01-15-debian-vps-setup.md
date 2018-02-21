@@ -45,7 +45,7 @@ echo "/swapfile none swap sw 0 0" >> /etc/fstab
 nano /etc/fstab
 /swapfile none swap sw 0 0
 ```
-## Shadowsocks-libev
+## shadowsocks-libev
 ```bash
 #debian8
 sh -c 'printf "deb http://deb.debian.org/debian jessie-backports main\n" > /etc/apt/sources.list.d/jessie-backports.list'
