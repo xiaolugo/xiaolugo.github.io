@@ -1,24 +1,22 @@
 ---
-title: Debian VPS常用设置
+category: it
 layout: post
 tags:
   - debian
   - vps
-category: it
+title: 'Debian VPS常用设置'
 ---
 ## basic
-
-``` bash
 rm -rf /etc/localtime 
 ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-apt update && apt upgrade -y
-apt install vim nano htop curl unzip
+
 cp /usr/share/vim/vim74/vimrc_example.vim .vimrc
-vim /etc/ssh/sshd_config
 wget https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh -O- | sh
+
 wget -qO- https://raw.githubusercontent.com/oooldking/script/master/superbench.sh | bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench.sh && bash ZBench.sh
 wget -qO- bench.sh | bash
+
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/status.sh && chmod +x status.sh
 bash <(curl -L -s https://install.direct/go.sh)
