@@ -9,7 +9,7 @@ subtitle: 之道
 description:
 author: daozhi
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: zh-Hans
+language: en
 date_format: '%Y-%m-%d'
 repository: xiaolugo/xiaolugo.github.io
 # URL
@@ -35,7 +35,7 @@ paginate: 10
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md"]
 
 # Separator
-#excerpt_separator: <!-- more -->
+excerpt_separator: <!-- more -->
 
 # Code Highlighter
 ## 'pygments' is unsupported on GitHub Pages now.
@@ -150,8 +150,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
-scheme: Mist
+scheme: Muse
+#scheme: Mist
 #scheme: Pisces
 
 
@@ -217,7 +217,7 @@ font:
 social:
   GitHub: https://github.com/xiaolugo
   Twitter: https://twitter.com/gudaozhi
-  facebook: https://www.facebook.com/xiaolugo
+  #facebook: https://www.facebook.com/xiaolugo
 
 # Social Links Icons
 # Icon Mapping:
@@ -320,7 +320,7 @@ post_meta:
 # Post wordcount display settings
 post_wordcount:
   item_text: true
-  wordcount: false
+  wordcount: true
   min2read: false
   separated_meta: true
 
@@ -356,7 +356,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 
 # ---------------------------------------------------------------
@@ -383,7 +383,7 @@ han: false
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: gxlgit
   count: true
   # hide comments (visitors need to click to load the comments)
