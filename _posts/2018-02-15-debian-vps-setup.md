@@ -3,7 +3,6 @@ category: it
 layout: post
 tags:
   - debian
-  - vps
 title: 'Debian VPS常用设置'
 ---
 ```bash
