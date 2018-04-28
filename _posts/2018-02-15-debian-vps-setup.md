@@ -5,6 +5,7 @@ tags:
   - debian
 title: 'Debian VPS常用设置'
 ---
+##basic
 ```bash
 #time
 rm -rf /etc/localtime 
