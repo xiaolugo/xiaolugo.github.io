@@ -5,6 +5,7 @@ tags:
   - git
 category: linux
 ---
+
 git config --global user.name "demo" 设置你的用户名
 
 git config --global user.email "demo@qq.com" 设置你的邮箱
