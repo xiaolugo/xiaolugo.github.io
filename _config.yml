@@ -16,7 +16,7 @@ repository: xiaolugo/xiaolugo.github.io
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url: https://xiaolugo.github.io/
 baseurl:
-permalink: title
+permalink: none
 
 # Pagination
 paginate: 10
