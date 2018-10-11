@@ -1,5 +1,5 @@
 ---
-title: Wordpress with LNMP
+title: 搭建wordpress
 layout: post
 tags:
   - wordpress
@@ -19,15 +19,16 @@ return 301 https://blog.daos.win$request_uri;
 # download wordpress
 ```bash
 cd /home/wwwroot/
-wget https://cn.wordpress.org/wordpress-4.9.1-zh_CN.zip
-unzip wordpress-4.9.1-zh_CN.zip
-chown -R www:www blog.daos.win
+wget http://wordpress.org/latest.tar.gz
+tar -xzvf latest.tar.gz
+chown -R www:www wordpress
 ```
 # mysql
 ```bash
 mysql -u root -p
 CREATE DATABASE wordpress; 
 GRANT ALL PRIVILEGES ON wordpress.* TO "username"@"localhost"
+    
     -> IDENTIFIED BY "password";
 FLUSH PRIVILEGES;
 exit
