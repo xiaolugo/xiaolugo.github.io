@@ -78,7 +78,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "vps, linux"
+keywords: "vps"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -121,8 +121,8 @@ menu:
   categories: /categories/
   tags: /tags/
   about: /about/
-  #sitemap: /sitemap.xml
-  #commonweal: /404.html
+  sitemap: /sitemap.xml
+  commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -150,8 +150,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
-scheme: Mist
+scheme: Muse
+#scheme: Mist
 #scheme: Pisces
 
 
@@ -217,7 +217,7 @@ font:
 social:
   GitHub: https://github.com/xiaolugo
   Twitter: https://twitter.com/gudaozhi
-  #facebook: https://www.facebook.com/xiaolugo
+  facebook: https://www.facebook.com/xiaolugo
 
 # Social Links Icons
 # Icon Mapping:
