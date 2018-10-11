@@ -14,8 +14,6 @@ enable scandir
 chattr +i /home/wwwroot/blog.daos.win/.user.ini
 return 301 https://blog.daos.win$request_uri;
 ```
-<!--more-->
-
 # download wordpress
 ```bash
 cd /home/wwwroot/
