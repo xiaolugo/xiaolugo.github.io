@@ -1,1 +1,1 @@
-[xiaolu's gitpage](https://xiaolugo.github.io)
+[xiaolu's gitpage](https://xiaolugu.github.io)
