@@ -4,17 +4,17 @@
 # ---------------------------------------------------------------
 
 # Site
-title: 道之
+title: 晓路的页面
 subtitle: 随想随记
-description: To Leave Something Behind
-author: daozhi
+description: 文科生学习互联网
+author: xiaolu
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
-repository: xiaolugo/xiaolugo.github.io
+repository: xiaolugu/xiaolugu.github.io
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: https://xiaolugo.github.io/
+url: https://xiaolugu.github.io/
 baseurl:
 permalink: none
 
@@ -78,7 +78,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "vps"
+keywords: "linux"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -150,9 +150,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
+scheme: Muse
 #scheme: Mist
-scheme: Pisces
+#scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -215,7 +215,7 @@ font:
 #social:
   #LinkLabel: Link
 social:
-  GitHub: https://github.com/xiaolugo
+  GitHub: https://github.com/xiaolugu
   Twitter: https://twitter.com/gudaozhi
   #facebook: https://www.facebook.com/xiaolugo
 
