@@ -1,5 +1,5 @@
 ---
-title: 搭建wordpress
+title: 快速搭建wordpress
 layout: post
 tags:
   - wordpress
@@ -8,11 +8,12 @@ category: it
 # install lnmp
 ```bash
 screen -S lnmp
-wget -c http://soft.vpser.net/lnmp/lnmp1.4.tar.gz && tar zxf lnmp1.4.tar.gz && cd lnmp1.4 && ./install.sh
-vim /usr/local/php/etc/php.ini
-enable scandir
-chattr +i /home/wwwroot/blog.daos.win/.user.ini
-return 301 https://blog.daos.win$request_uri;
+wget http://soft.vpser.net/lnmp/lnmp1.6.tar.gz -cO lnmp1.6.tar.gz && tar zxf lnmp1.6.tar.gz && cd lnmp1.6 && ./install.sh lnmp
+ln -s /usr/local/nginx/conf/vhost/
+Or
+screen -S oneinstack
+wget http://mirrors.linuxeye.com/oneinstack-full.tar.gz && tar xzf oneinstack-full.tar.gz && cd oneinstack && ./install.sh
+
 ```
 # download wordpress
 ```bash
