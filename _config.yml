@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: 晓路的页面
+title: 道之的博客
 subtitle: 随想随记
 description: 文科生学习互联网
-author: xiaolu
+author: daozhi
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
